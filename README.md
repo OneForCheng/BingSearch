@@ -3,7 +3,7 @@
 一个控制台版本的必应在线搜索。
 
 # Config
-在App.config中，包含程序搜索时用到的参数信息，其中'Key'是Bing Search Api V5的秘钥，需要[申请][1]。
+为了是程序具有更大的灵活性，将搜索时要用到的参数信息放在了App.config中，其中'Key'是Bing Search Api V5的秘钥，需要[申请][1]。
 
 ```
  <appSettings>
@@ -34,7 +34,7 @@ BingSearch <Content>
     <Content>    待搜索内容。
 ```
 
-#Tip
+# Tip
 此程序属于在线调用接口获取搜索结果，所以需要连接网络才能使用。
 
 [1]:https://azure.microsoft.com/zh-cn/try/cognitive-services
