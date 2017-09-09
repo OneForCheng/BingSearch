@@ -37,6 +37,8 @@ namespace BingSearch
             return config;
         }
 
+    
+
         static int Main(string[] args)
         {
             try
@@ -70,8 +72,14 @@ namespace BingSearch
                     {
                         var bing = new BingWebSearch(config);
                         var result = bing.SearchContent(str);
-                        bing.PrintResult(result);
-
+                        if (result != null)
+                        {
+                            bing.PrintResult(result);
+                        }
+                        else
+                        {
+                            Console.WriteLine("搜索结果为空!");
+                        }
                     }
                 }
             }
