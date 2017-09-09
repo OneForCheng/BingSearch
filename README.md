@@ -34,6 +34,8 @@ BingSearch <Content>
     <Content>    待搜索内容。
 ```
 
+ ![image](https://github.com/OneForCheng/BingSearch/blob/master/BingSearch/BingSearch.png)
+
 # Tip
 此程序属于在线调用接口获取搜索结果，所以需要连接网络才能使用。
 
